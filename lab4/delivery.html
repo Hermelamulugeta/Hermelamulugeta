@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+<title>web form excercise home page</title>
+</head>
+
+
+<br>
+
+<hr color="black">
+
+<table width="100%">
+
+  <tr>
+    <td width="30%"></td>
+    <td width="10%"> <a href="home.html">home</a></td>
+    <td width="10%"><a href="Job application.html">apply</a></td>
+    <td width="10%"><a href="feedback.html">feedback</a></td>
+    <td width="10%"><a href="delivery.html">delivery</a></td>
+    <td width="30%"></td>
+  </tr>
+</table>
+<hr color="black">
+
+<table>
+             
+  <tr width="50%">
+    <td width="10%"></td>
+    <td width="40%"valign="center" >
+<h2 id="Reservation request">Reservation request</h2><br>
+
+         <form action="/action_page.php">
+   <fieldset>
+                <legend>general information</legend>
+         <label for="arrival date">Arrival Date  </label>
+         <input type="date" id="arrival date" name="date" ><br>
+         <label for="nights">nights  </label>
+         <input type="num" id="nights" name="nights" ><br>
+         <label for="adults">adults  </label>
+         <input type="number" id="adults" name="adults" length="2"><br>
+         <label for="children">children  </label>
+         <input type="number" id="children" name="children" length="3" ><br><br>
+ </fieldset></form>
+
+
+         <form action="/action_page.php">
+ <fieldset>
+                <legend>prefernces</legend>
+         <label for="Room Type">Room Type  </label>
+         <input type="radio" value="standard" name="standard" >Standard
+               <input type="radio" value="business" name="business" >Business
+               <input type="radio" value="suite" name="suite" >Suite <br>
+
+         <label for="Bed Type">Bed Type  </label>
+          <input type="radio" value="king" name="king" >King
+               <input type="radio" value="Double Double" name="Double Double" >Double Double<br>
+               <input type="radio" value="smoking" name="smoking" >Smoking <br><br>
+</fieldset>
+
+</form>
+
+         <form action="/action_page.php">
+ <fieldset>
+                <legend>general information</legend>
+         <label for="name">name  </label>
+         <input type="text" id="name" name="name" required="required"><br>
+         <label for="email">email </label>
+         <input type="email" id="email" name="email " ><br> 
+         <label for="phone">phone </label>
+         <input type="phone" id="phone" name="phone "   pattern= "[+251]{9}[0-9]{9} placeholder="+251 9_ _ _ _ _ _ _ _ " ><br><br>
+<input type="submit"  value="submit reservation">
+<input type="submit" value="clear">
+</fieldset>
+</form>
+</td> 
+<tr></tr><br><br>
+
+
+<td width="5%"></td>
+<td width="100%">
+     <h3 id="Pizza delivery">PIZZA DELIVERY</h3>
+     <h4>online order form</h4>
+<form action="/action_page.php">
+     <label for="name">Name  </label>
+         <input type="text" id="name" name="name" >
+     <label for="tel">tel  </label>
+         <input type="number" id="tel" name="tel" > <br>
+      <label for="address">address  </label>
+        <input type="text" id="address" name="address" >
+     <label for="email">email  </label>
+         <input type="email" id="email" name="email" ><br>
+     <label for="town/city">town/city </label>
+         <input type="town/cities" id="adults" name="cities" length="2"><br>
+     <label for="postcode">postcode  </label>   
+         <input type="postcode" id="postcode" name="postcode" length="3" ><br><br>
+	
+
+<table width="100%">
+<tr><p>requred felds</p>
+  <td valign="center" width="30%">
+  <fieldset requred="requred">
+                <legend>toppings</legend><br>
+         <input type="radio" value="margarita">margarita<br>
+         <input type="radio" value="four season ">four season<br>
+         <input type="radio" value="meat feast" >meat feast</td></fieldset>
+      <td valign="center" width="30%">
+ <fieldset requred="requred">
+                <legend>size</legend><br>
+         <input type="checkbox" value="small" >small<br>
+         <input type="checkbox" value="medium" >medium<br>
+         <input type="checkbox" value="large " >large</td>
+</fieldset>
+     <td valign="center" width="30%">
+ <fieldset requred="requred">
+                <legend>extras</legend><br>
+         <input type="checkbox" value="mushroom" >mushroom<br>
+         <input type="checkbox" value="green pepper">green pepper<br>
+         <input type="checkbox" value="anchovies">anchovies<br>
+         <input type="checkbox" value="cheese ">cheese</td></fieldset>
+      
+</table><br>
+<label for="preferred time">preferred delivery time  </label>
+         <input type="time" id="preferred time" name="time""><br><br>
+<label for="delivery instructions or address">delivery instructions or address </label>
+<textarea name="message" rows="5" cols="10">
+	</textarea><br>
+	<input type="submit" value="submit an order">
+</form>
+
+</td>
+
+</form>
+
+</table>
+
+
+
+
+
+</body></html>
